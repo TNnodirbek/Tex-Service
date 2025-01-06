@@ -1,0 +1,44 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+}
+
+.contact-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+  background: #4a5568;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  height: 100%;
+  display: flexbox;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-info h5 {
+  color: #e2e8f0;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info ul li {
+  margin-bottom: 15px;
+}
+
+.btn-primary {
+  background-color: #265a96;
+  border: 1px;
+}
+
+.btn-primary:hover {
+  background-color: #2b6cb0;
+}

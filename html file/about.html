@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us Section</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="/index.html">TEXSERVICE</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Uy</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="about.html">Haqida</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/html file/service.html">Xizmatlar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/html file/contactus.html">Aloqa</a>
+          </li>
+          <li
+            class="btn btn-success mx-2"
+            data-toggle="modal"
+            data-target="#login"
+          >
+            Tizimga Kirish
+          </li>
+          <li class="btn btn-success" data-toggle="modal" data-target="#signup">
+            Ro'yhatdan O'tish
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="about-section py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <h2 class="mb-4">ABOUT US</h2>
+            <p class="mb-4">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised.
+            </p>
+            <!-- button bor adi -->
+          </div>
+          <div class="col-md-6">
+            <img
+              src="/img/about1.png"
+              alt="About Us Image"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+        <div class="row">
+          <!-- Kompaniya haqida -->
+          <div class="col-md-4 mb-3">
+            <h5>Biz haqimizda</h5>
+            <p>
+              Biz professional texnik xizmatlarni taqdim etamiz, jumladan
+              kameralar o‘rnatish, Wi-Fi, yong‘inga qarshi tizimlar, maishiy
+              texnika, elektr xizmatlari va sanitariya-tesisat ishlari.
+            </p>
+          </div>
+          <!-- Tezkor havolalar -->
+          <div class="col-md-4 mb-3">
+            <h5>Tezkor havolalar</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="/index.html" class="text-light text-decoration-none"
+                  >Bosh sahifa</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./html file/about.html"
+                  class="text-light text-decoration-none"
+                  >Biz haqimizda</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./html file/service.html"
+                  class="text-light text-decoration-none"
+                  >Xizmatlar</a
+                >
+              </li>
+              <li>
+                <a
+                  href="/html file/contactus.html"
+                  class="text-light text-decoration-none"
+                  >Aloqa</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Aloqa ma'lumotlari -->
+          <div class="col-md-4 mb-3">
+            <h5>Aloqa</h5>
+            <p>Email: texservis@gmail.com</p>
+            <p>Telefon: 777-77-77</p>
+            <p>Manzil: 744 Xorazim, Xonqa tumani</p>
+          </div>
+        </div>
+        <div class="text-center mt-3">
+          <p class="mb-0">
+            &copy; 2024 Bizning kompaniya. Barcha huquqlar himoyalangan.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- Modal Login-->
+    <div
+      class="modal fade"
+      id="login"
+      tabindex="-1"
+      aria-labelledby="loginLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="loginLabel">Kirish</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="loginEmail1">E-mail manzil</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="loginEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="form-group">
+                <label for="loginPassword1"> Parol </label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="loginPassword1"
+                />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="submit"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Bekor qilish
+                </button>
+                <button type="button" class="btn btn-primary">Kirish</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Sing up -->
+    <div
+      class="modal fade"
+      id="signup"
+      tabindex="-1"
+      aria-labelledby="signupLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="signupLabel">Ro'yhatdan O'tish</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="nameInput">Ism</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="nameInput"
+                  aria-describedby="nameHelp"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1"> E-mail manzil </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1"> Parol </label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="exampleInputPassword1"
+                />
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-dismiss="modal"
+                >
+                  Bekor qilish
+                </button>
+                <button type="submit" class="btn btn-primary">Kirish</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
